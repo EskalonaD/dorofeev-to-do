@@ -1,0 +1,26 @@
+.tab-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+
+    &:after{
+        content: '';
+        width: 100%;
+        border: 1px solid rgb(255, 150, 63);
+    }
+
+    app-tab-button {
+        border-right: 1px solid #000;
+        border-left: 1px solid #000;
+
+        &:hover {
+            border-right: none;
+            border-left: none;
+        }
+
+        &.active {
+            border-bottom: 3px solid rgb(255, 150, 63);
+        }
+    }
+}
