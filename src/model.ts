@@ -3,3 +3,7 @@ export interface Tab {
     caption: string;
     content: any //change
 }
+
+export interface Configuration {
+    endpointURL: '';
+}
