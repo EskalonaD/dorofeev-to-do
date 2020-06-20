@@ -1,0 +1,1 @@
+check if we can send objects with iterators inside through http-request

@@ -27,7 +27,7 @@ export interface List {
     [key: string]: ListedItem;
 }
 
-export interface ListIterator {
-    next: () => {done: boolean; value?: any};
-    [key: string]: any;
-}
+// export interface ListIterator {
+//     next: () => {done: boolean; value?: any};
+//     [key: string]: any;
+// }
