@@ -1,1 +1,3 @@
 check if we can send objects with iterators inside through http-request
+
+temporary array solution while i dont have computer
